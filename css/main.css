@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*======== Address Navbar */
+#addressNavbar {
+    background-color: #323232;
+    color: #cacaca;
+    font-weight: 600;
+    font-size: .75rem;
+}
+
+#addressNavbar .nav-link {
+    color: white;
+}
+
+#addressNavbar .nav-item {
+    border-left: 1px solid rgba(74, 74, 74, .55);
+    padding: 5px .5rem;
+}
+
+#addressNavbar .nav-link span {
+    color: #cacaca;
+}
+
+#addressNavbar .rightMenu {
+    margin-left: 395px;
+}
+
+
+
+/*======= Main Navbar */
+#mainNavbar {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #43cb83;
+}
+
+#mainNavbar .nav-link {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 20px;
+}
+
+
+
+/*======== Intro Section  */
+
+#intro {
+    color: grey;
+    background-color: #fbfbfc;
+    padding: 15px 0;
+}
+
+#intro h1 {
+    color: #545454;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+#intro p {
+    font-size: 1rem;
+    line-height: 1.67em;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+#intro h3 {
+    color: #969696;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+
+
+/*========= Gallery */
+
+#gallery {
+    width: 98%;
+    margin: auto;
+}
+
+#gallery .hoverImg {
+    position: relative;
+}
+
+#gallery .hoverTextPart {
+    position: absolute;
+    top: 0;
+}
+
+#gallery .hoverImg:hover  {
+    background-color: tomato;
+}
