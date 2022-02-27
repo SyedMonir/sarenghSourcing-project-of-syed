@@ -30,7 +30,7 @@ a {
 }
 
 #addressNavbar .rightMenu {
-    margin-left: 395px;
+    margin-left: 463px;
 }
 
 #addressNavbar .facebook,
@@ -112,6 +112,7 @@ a {
     padding: 10px 30px;
     top: 100%;
     width: 220px;
+    z-index: 1;
 }
 
 #mainNavbar .dropdownList2 {
@@ -121,6 +122,23 @@ a {
     left: -670px;
     width: 1125px;
 }
+
+@media screen and (max-width:415px) {
+    #mainNavbar .dropdownList2 {
+        left: -13px;
+        width: 100%;
+    }
+
+    #mainNavbar .dropdownList2 .forSmall {
+        flex-direction: column;
+    }
+
+    /* #mainNavbar .dropdownList2 h5 {
+        margin: 10px 0;
+    } */
+}
+
+
 
 #mainNavbar .dropMenu,
 #mainNavbar .dropMenu2 {
@@ -133,12 +151,12 @@ a {
     display: block;
 }
 
-#mainNavbar .dropdownList a{
+#mainNavbar .dropdownList a {
     font-size: 12px;
     font-weight: 500;
     border-bottom: 1px solid #f4f4f4 !important;
     padding: 8px;
-    color: black ;
+    color: black;
     cursor: pointer;
 }
 
@@ -146,6 +164,9 @@ a {
     border-bottom: 0;
 }
 
+#mainNavbar .dropdownList li {
+    margin-bottom: 10px;
+}
 
 
 
